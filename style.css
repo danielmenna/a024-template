@@ -1,1 +1,32 @@
+*{padding: 0; margin: 0;}
 
+header{background-color: orange;
+        display: grid;
+        grid-template-columns: 10% 1fr 10%;
+        align-items: center;
+        justify-items: end;
+      }
+
+main {display: grid;
+      grid-template-columns: 20% 1fr 20%;
+      grid-gap: 1%;
+      margin-top: 1%;}
+
+.gallery {display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+          grid-column-gap: 1vh;
+          grid-row-gap: 2vw;
+          margin-top: 1%;
+          }
+
+figure {border: 1px solid black;
+        width: 150px;
+        text-align: center;}
+
+footer{position: absolute;
+      bottom: 0;
+      width: 98vw;
+      background-color: aqua;
+      text-align: center;
+      padding: 1%;}
